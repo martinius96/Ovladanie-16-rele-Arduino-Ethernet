@@ -11,7 +11,7 @@ const int vystup7 = 7;
 const int vystup8 = 8;
 
 byte mac[] = { 0xAA, 0xBB, 0xCC, 0x81, 0x7B, 0x4C }; //fyzicka adresa MAC
-char serverName[] = "www.arduino.php5.sk"; // webserver
+char serverName[] = "arduino.clanweb.eu"; // webserver
 IPAddress ip(192, 168, 1, 253);
 EthernetClient client;
 String readString;
