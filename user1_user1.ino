@@ -36,7 +36,7 @@ void stav_vystup1(){
   if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
     client.println("GET /rele/rele1.txt HTTP/1.1"); //download text
-    client.println("Host: www.arduino.php5.sk");
+    client.println("Host: arduino.clanweb.eu");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
   } 
@@ -69,7 +69,7 @@ if(readString=="ZAP"){
   if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
     client.println("GET /rele/rele2.txt HTTP/1.1"); //download text
-    client.println("Host: www.arduino.php5.sk");
+    client.println("Host: arduino.clanweb.eu");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
   } 
@@ -102,7 +102,7 @@ if(readString=="ZAP"){
   if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
     client.println("GET /rele/rele3.txt HTTP/1.1"); //download text
-    client.println("Host: www.arduino.php5.sk");
+    client.println("Host: arduino.clanweb.eu");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
   } 
@@ -135,7 +135,7 @@ if(readString=="ZAP"){
   if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
     client.println("GET /rele/rele4.txt HTTP/1.1"); //download text
-    client.println("Host: www.arduino.php5.sk");
+    client.println("Host: arduino.clanweb.eu");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
   } 
@@ -168,7 +168,7 @@ if(readString=="ZAP"){
   if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
     client.println("GET /rele/rele5.txt HTTP/1.1"); //download text
-    client.println("Host: www.arduino.php5.sk");
+    client.println("Host: arduino.clanweb.eu");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
   } 
@@ -201,7 +201,7 @@ void stav_vystup6(){
   if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
     client.println("GET /rele/rele6.txt HTTP/1.1"); //download text
-    client.println("Host: www.arduino.php5.sk");
+    client.println("Host: arduino.clanweb.eu");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
   } 
@@ -234,7 +234,7 @@ void stav_vystup7(){
   if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
     client.println("GET /rele/rele7.txt HTTP/1.1"); //download text
-    client.println("Host: www.arduino.php5.sk");
+    client.println("Host: arduino.clanweb.eu");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
   } 
@@ -267,7 +267,7 @@ if(readString=="ZAP"){
   if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
     client.println("GET /rele/rele8.txt HTTP/1.1"); //download text
-    client.println("Host: www.arduino.php5.sk");
+    client.println("Host: arduino.clanweb.eu");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
   } 
